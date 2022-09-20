@@ -1,3 +1,4 @@
 my:
   name: Yan
   surname: Karpovich
+  json: '{"host" : "mailer@mail.com", "port" : 9090, "resend" : true}'
