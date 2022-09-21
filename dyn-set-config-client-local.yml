@@ -16,6 +16,7 @@ my:
   "map": {
     "firstKey": "firstValue",
     "secondKey": "secondValue",
-    "thirdKey": "thirdValue"
+    "thirdKey": "thirdValue",
+    "fourthKey": "fourthValue"
   }
 }'
