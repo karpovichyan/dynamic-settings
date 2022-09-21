@@ -47,7 +47,7 @@
 
     json: '{
   "dynSetString": "initString",
-  "dynSetInteger": 1111,
+  "dynSetInteger": 2222,
   "dynSetBoolean": true,
   "firstTestDto": {
     "secondTestDto": {
