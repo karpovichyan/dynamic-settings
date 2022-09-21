@@ -1,35 +1,45 @@
 dynamic:
   settings:
     json: '{
-  "dynSetString": "initString",
-  "dynSetInteger": 111,
-  "dynSetBoolean": true,
+  "dynSetString": "updateString",
+  "dynSetInteger": 222,
+  "dynSetBoolean": false,
   "firstTestDto": {
     "secondTestDto": {
-      "strField": "initSecTestDtoString"
+      "strField": "updateSecTestDtoString"
     }
   },
   "firstTestDtoList": [
     {
       "secondTestDto": {
-        "strField": "initSecTestDtoString"
+        "strField": "updateSecTestDtoString"
       }
     },
     {
       "secondTestDto": {
-        "strField": "initSecTestDtoString1"
+        "strField": "updateSecTestDtoString1"
+      }
+    },
+    {
+      "secondTestDto": {
+        "strField": "updateSecTestDtoString2"
       }
     }
   ],
   "map": {
+    "key2": {
+      "secondTestDto": {
+        "strField": "updateSecTestDtoString2"
+      }
+    },
     "key1": {
       "secondTestDto": {
-        "strField": "initSecTestDtoString1"
+        "strField": "updateSecTestDtoString1"
       }
     },
     "key0": {
       "secondTestDto": {
-        "strField": "initSecTestDtoString"
+        "strField": "updateSecTestDtoString"
       }
     }
   }
