@@ -1,24 +1,29 @@
-dynamic:
+ dynamic:
   settings:
     dyn-set-test-dto:
-      dyn-set-string: 'initString'
-      dyn-set-integer: 111
-      dyn-set-boolean: true
+      dyn-set-string: 'updateString'
+      dyn-set-integer: 222
+      dyn-set-boolean: false
       first-test-dto:
         second-test-dto:
-          str-field: 'initSecTestDtoString'
+          str-field: 'updateSecTestDtoString'
       first-test-dto-list:
         - second-test-dto:
-            str-field: 'initSecTestDtoString'
+            str-field: 'updateSecTestDtoString'
         - second-test-dto:
-            str-field: 'initSecTestDtoString1'
+            str-field: 'updateSecTestDtoString1'
+        - second-test-dto:
+            str-field: 'updateSecTestDtoString2'
       map:
         key0:
           second-test-dto:
-            str-field: 'initSecTestDtoString'
+            str-field: 'updateSecTestDtoString'
         key1:
           second-test-dto:
-            str-field: 'initSecTestDtoString1'
+            str-field: 'updateSecTestDtoString1'
+        key2:
+          second-test-dto:
+            str-field: 'updateSecTestDtoString1'
 
     simple:
       my-obj:
