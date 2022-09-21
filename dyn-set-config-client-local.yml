@@ -5,8 +5,8 @@
       my-simple-obj:
         simple-field: 'field from git'
       my-string-list:
-        - 'first elem from yml'
-        - 'second elem from yml'
+        - 'first elem from git'
+        - 'second elem from git'
     json: '{
   "dynSetString": "updateString",
   "dynSetInteger": 222,
