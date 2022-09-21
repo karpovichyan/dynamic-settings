@@ -1,37 +1,47 @@
 dynamic:
   settings:
     json: '{
-    "dynSetString": "initString",
-    "dynSetInteger": 111,
-    "dynSetLong": 111,
-    "dynSetBoolean": true,
-    "firstTestDto": {
-        "secondTestDto": {
-            "strField": "initSecTestDtoString"
-        }
-    },
-    "firstTestDtoList": [
-        {
-            "secondTestDto": {
-                "strField": "initSecTestDtoString"
-            }
-        },
-        {
-            "secondTestDto": {
-                "strField": "initSecTestDtoString1"
-            }
-        }
-    ],
-    "map": {
-        "key1": {
-            "secondTestDto": {
-                "strField": "initSecTestDtoString1"
-            }
-        },
-        "key0": {
-            "secondTestDto": {
-                "strField": "initSecTestDtoString"
-            }
-        }
+  "dynSetString": "updateString",
+  "dynSetInteger": 222,
+  "dynSetLong": 222,
+  "dynSetBoolean": false,
+  "firstTestDto": {
+    "secondTestDto": {
+      "strField": "updateSecTestDtoString"
     }
+  },
+  "firstTestDtoList": [
+    {
+      "secondTestDto": {
+        "strField": "updateSecTestDtoString"
+      }
+    },
+    {
+      "secondTestDto": {
+        "strField": "updateSecTestDtoString1"
+      }
+    },
+    {
+      "secondTestDto": {
+        "strField": "updateSecTestDtoString2"
+      }
+    }
+  ],
+  "map": {
+    "key2": {
+      "secondTestDto": {
+        "strField": "updateSecTestDtoString2"
+      }
+    },
+    "key1": {
+      "secondTestDto": {
+        "strField": "updateSecTestDtoString1"
+      }
+    },
+    "key0": {
+      "secondTestDto": {
+        "strField": "updateSecTestDtoString"
+      }
+    }
+  }
 }'
