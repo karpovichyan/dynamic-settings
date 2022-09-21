@@ -1,20 +1,3 @@
-my:
-  name: Yan
-  surname: Karpovich
-  json: '{
-  "name": "Yan",
-  "surname": "Karpovich",
-  "list": [
-    "firstElem",
-    "secondElem"
-  ],
-  "mapClass": {
-    "firstKey": "firstValue",
-    "secondKey": "secondValue",
-    "thirdKey": "thirdValue"
-  },
-  "map": {
-    "firstKey": "firstValue",
-    "secondKey": "secondValue"
-  }
-}'
+dynamic:
+  settings:
+    json: ''
