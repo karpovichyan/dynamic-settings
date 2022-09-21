@@ -14,6 +14,11 @@ dynamic:
         my-string-string-map:
           first-key: '1 value field from git'
           second-key: '2 value field from git'
+        my-string-obj-map:
+          first-key:
+            simple-field: '1 field from git'
+          second-key:
+            simple-field: '2 field from git'
     json: '{
   "dynSetString": "updateString",
   "dynSetInteger": 222,
