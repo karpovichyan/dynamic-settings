@@ -1,12 +1,16 @@
- dynamic:
+dynamic:
   settings:
     simple:
-      my-string: 'from git'
-      my-simple-obj:
-        simple-field: 'field from git'
-      my-string-list:
-        - 'first elem from git'
-        - 'second elem from git'
+      my-obj:
+        my-string: 'from git'
+        my-simple-obj:
+          simple-field: 'field from git'
+        my-string-list:
+          - 'first elem from git'
+          - 'second elem from git'
+        my-simple-obj-list:
+          - simple-field: '1 field from git'
+          - simple-field: '2 field from git'
     json: '{
   "dynSetString": "updateString",
   "dynSetInteger": 222,
