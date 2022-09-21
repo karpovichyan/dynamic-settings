@@ -2,6 +2,8 @@
   settings:
     simple:
       my-string: 'from git'
+      my-simple:
+        simple-field: 'field from git'
     json: '{
   "dynSetString": "updateString",
   "dynSetInteger": 222,
