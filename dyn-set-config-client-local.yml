@@ -1,6 +1,7 @@
-dynamic:
+ dynamic:
   settings:
-    simple: Simple
+    simple:
+      my-string: 'from git'
     json: '{
   "dynSetString": "updateString",
   "dynSetInteger": 222,
