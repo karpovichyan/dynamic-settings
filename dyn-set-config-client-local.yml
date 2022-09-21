@@ -2,7 +2,7 @@
   settings:
     dyn-set-test-dto:
       dyn-set-string: 'updateString'
-      dyn-set-integer: 222
+      dyn-set-integer: 999
       dyn-set-boolean: false
       first-test-dto:
         second-test-dto:
