@@ -1,4 +1,18 @@
 my:
   name: Yan
   surname: Karpovich
-  json: '{"name" : "Yan", "surname" : "Karpovich"}'
+  json: '{
+    "name": "Yan",
+    "surname": "Karpovich",
+    "list": [
+        "firstElem"
+    ],
+    "mapClass": {
+        "firstKey": "firstValue",
+        "secondKey": "secondValue"
+    },
+    "map": {
+        "firstKey": "firstValue",
+        "secondKey": "secondValue"
+    }
+}'
