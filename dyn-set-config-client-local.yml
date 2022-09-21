@@ -2,7 +2,7 @@
   settings:
     dyn-set-test-dto:
       dyn-set-string: 'updateString'
-      dyn-set-integer: 999
+      dyn-set-integer: 111
       dyn-set-boolean: false
       first-test-dto:
         second-test-dto:
@@ -47,7 +47,7 @@
 
     json: '{
   "dynSetString": "initString",
-  "dynSetInteger": 9999,
+  "dynSetInteger": 111,
   "dynSetBoolean": true,
   "firstTestDto": {
     "secondTestDto": {
