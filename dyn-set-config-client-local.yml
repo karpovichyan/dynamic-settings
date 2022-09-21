@@ -1,8 +1,9 @@
 dynamic:
   settings:
-    dynSetString: 'initString'
-    dynSetInteger: 111
-    dynSetBoolean: true
+    dyn-set-test-dto:
+      dyn-set-string: 'initString'
+      dyn-set-integer: 111
+      dyn-set-boolean: true
     simple:
       my-obj:
         my-string: 'from git'
