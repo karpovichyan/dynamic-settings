@@ -1,5 +1,6 @@
 dynamic:
   settings:
+    simple: Simple
     json: '{
   "dynSetString": "updateString",
   "dynSetInteger": 222,
