@@ -4,6 +4,9 @@ dynamic:
       dyn-set-string: 'initString'
       dyn-set-integer: 111
       dyn-set-boolean: true
+      first-test-dto:
+        second-test-dto:
+          str-field: 'initSecTestDtoString'
     simple:
       my-obj:
         my-string: 'from git'
