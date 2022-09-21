@@ -10,6 +10,8 @@ dynamic:
       firstTestDtoList:
         - second-test-dto:
             str-field: 'initSecTestDtoString'
+        - second-test-dto:
+            str-field: 'initSecTestDtoString1'
     simple:
       my-obj:
         my-string: 'from git'
