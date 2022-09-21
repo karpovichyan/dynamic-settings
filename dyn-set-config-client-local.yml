@@ -2,8 +2,8 @@ my:
   name: Yan
   surname: Karpovich
   json: '{
-  "name": "Ilya",
-  "surname": "Popenuk",
+  "name": "Yan",
+  "surname": "Karpovich",
   "list": [
     "firstElem",
     "secondElem"
