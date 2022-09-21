@@ -44,47 +44,4 @@
             simple-field: '1 field from git'
           second-key:
             simple-field: '2 field from git'
-    json: '{
-  "dynSetString": "updateString",
-  "dynSetInteger": 222,
-  "dynSetBoolean": false,
-  "firstTestDto": {
-    "secondTestDto": {
-      "strField": "updateSecTestDtoString"
-    }
-  },
-  "firstTestDtoList": [
-    {
-      "secondTestDto": {
-        "strField": "updateSecTestDtoString"
-      }
-    },
-    {
-      "secondTestDto": {
-        "strField": "updateSecTestDtoString1"
-      }
-    },
-    {
-      "secondTestDto": {
-        "strField": "updateSecTestDtoString2"
-      }
-    }
-  ],
-  "map": {
-    "key2": {
-      "secondTestDto": {
-        "strField": "updateSecTestDtoString2"
-      }
-    },
-    "key1": {
-      "secondTestDto": {
-        "strField": "updateSecTestDtoString1"
-      }
-    },
-    "key0": {
-      "secondTestDto": {
-        "strField": "updateSecTestDtoString"
-      }
-    }
-  }
-}'
+
