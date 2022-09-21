@@ -11,6 +11,9 @@ dynamic:
         my-simple-obj-list:
           - simple-field: '1 field from git'
           - simple-field: '2 field from git'
+        my-string-string-map:
+          first-key: '1 value field from git'
+          second-key: '2 value field from git'
     json: '{
   "dynSetString": "updateString",
   "dynSetInteger": 222,
