@@ -1,5 +1,8 @@
 dynamic:
   settings:
+    dynSetString: 'initString'
+    dynSetInteger: 111
+    dynSetBoolean: true
     simple:
       my-obj:
         my-string: 'from git'
