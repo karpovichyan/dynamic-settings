@@ -7,11 +7,19 @@ dynamic:
       first-test-dto:
         second-test-dto:
           str-field: 'initSecTestDtoString'
-      firstTestDtoList:
+      first-test-dto-list:
         - second-test-dto:
             str-field: 'initSecTestDtoString'
         - second-test-dto:
             str-field: 'initSecTestDtoString1'
+       map:
+         key0:
+           second-test-dto:
+            str-field: 'initSecTestDtoString'
+         key1:
+           second-test-dto:
+            str-field: 'initSecTestDtoString1'
+
     simple:
       my-obj:
         my-string: 'from git'
