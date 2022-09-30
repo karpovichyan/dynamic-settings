@@ -23,7 +23,7 @@
             simple-field: '2 field from git'
 
     json: '{
-  "dynSetString": "initString",
+  "dynSetString": "github",
   "dynSetInteger": 333,
   "dynSetBoolean": true,
   "firstTestDto": {
